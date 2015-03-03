@@ -5,6 +5,7 @@ PODS:
     - Expecta
     - FBSnapshotTestCase
   - FBSnapshotTestCase (1.5)
+  - Reveal-iOS-SDK (1.5.1)
   - Specta (0.3.2)
 
 DEPENDENCIES:
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - Expecta
   - Expecta+Snapshots
   - FBSnapshotTestCase
+  - Reveal-iOS-SDK (~> 1.5.1)
   - Specta
 
 EXTERNAL SOURCES:
@@ -23,6 +25,7 @@ SPEC CHECKSUMS:
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
   Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
   FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
+  Reveal-iOS-SDK: dcfeb671c7da222c85f18f866da2ce88de075524
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
 
 COCOAPODS: 0.36.0.rc.1
