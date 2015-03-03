@@ -1,5 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+use_frameworks!
+
 target 'AlternativeButton', :exclusive => true do
   pod "AlternativeButton", :path => "../"
   pod 'Reveal-iOS-SDK', '~> 1.5.1', :configurations => ['Debug']

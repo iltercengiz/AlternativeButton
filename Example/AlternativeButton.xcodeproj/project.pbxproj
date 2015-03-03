@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		214D899CE938343D64778C39 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1F4B1AE0B1B9202850DC4C /* libPods-Tests.a */; };
 		36F69EB41AA5CF8100944D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F69EB31AA5CF8100944D7A /* Main.storyboard */; };
 		36F69EB71AA5D05D00944D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F69EB61AA5D05D00944D7A /* ViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		EB94846840A9C8DE558A5B99 /* libPods-AlternativeButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C72748251034B4D2B5F3222B /* libPods-AlternativeButton.a */; };
+		E8FF452699E8DCB0DC04498E /* Pods_AlternativeButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3548D4ABD17E6C2B214056C /* Pods_AlternativeButton.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F0C5DE5FDF955B774248B413 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8616DAD5DCD7ABD2AB5E520C /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7FACB0B5E4C766B03F3CA77A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8506A40EE94EF9E8063FD8E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C72748251034B4D2B5F3222B /* libPods-AlternativeButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlternativeButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8616DAD5DCD7ABD2AB5E520C /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3548D4ABD17E6C2B214056C /* Pods_AlternativeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlternativeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A1217800BE2002C5EA96FD /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA1F4B1AE0B1B9202850DC4C /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EB94846840A9C8DE558A5B99 /* libPods-AlternativeButton.a in Frameworks */,
+				E8FF452699E8DCB0DC04498E /* Pods_AlternativeButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				214D899CE938343D64778C39 /* libPods-Tests.a in Frameworks */,
+				F0C5DE5FDF955B774248B413 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C72748251034B4D2B5F3222B /* libPods-AlternativeButton.a */,
-				EA1F4B1AE0B1B9202850DC4C /* libPods-Tests.a */,
+				B3548D4ABD17E6C2B214056C /* Pods_AlternativeButton.framework */,
+				8616DAD5DCD7ABD2AB5E520C /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,6 +204,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3110AA4A358FB54914141284 /* Copy Pods Resources */,
+				0AE039AA5F63E5454B8A3254 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +224,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				D1B79E26F89E9AD233D3C768 /* Copy Pods Resources */,
+				CFA58C927B8FCA3D36BAD942 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +292,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0AE039AA5F63E5454B8A3254 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlternativeButton/Pods-AlternativeButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		169307E0FD2BE76FAF15B684 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +335,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlternativeButton/Pods-AlternativeButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA58C927B8FCA3D36BAD942 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D1B79E26F89E9AD233D3C768 /* Copy Pods Resources */ = {

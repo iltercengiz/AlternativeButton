@@ -1,0 +1,6 @@
+framework module AlternativeButton {
+  umbrella header "Pods-Tests-AlternativeButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

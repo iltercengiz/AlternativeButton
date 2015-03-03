@@ -3,23 +3,20 @@
   "version": "0.1.0",
   "summary": "A short description of AlternativeButton.",
   "description": "                       An optional longer description of AlternativeButton\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AlternativeButton",
+  "homepage": "https://github.com/iltercengiz/AlternativeButton",
   "license": "MIT",
   "authors": {
     "Ilter Cengiz": "iltercengiz@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AlternativeButton.git",
+    "git": "https://github.com/iltercengiz/AlternativeButton.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/iltercengiz",
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "AlternativeButton": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "public_header_files": "Pod/Classes/**/*.h"
 }

@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AlternativeButton: cb436879e0fd64190f9a4aa4b8a6669bf960b3f6
+  AlternativeButton: 644f1810f8a3679467772b9359ec0d37daef6b52
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
   Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
   FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
