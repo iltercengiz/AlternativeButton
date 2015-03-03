@@ -54,12 +54,19 @@ static CGFloat margin = 6.0;
     
     [self.titleLabel sizeToFit];
     
-    CGFloat width = CGRectGetWidth(self.titleLabel.frame) + margin * 2; // margin from both sides.
+    CGFloat titleLabelWidth = CGRectGetWidth(self.titleLabel.frame) + margin * 2; // margin from both sides.
+    CGFloat imageViewWidth = CGRectGetWidth(self.imageView.frame) + margin * 2; // margin from both sides.
     
-    CGFloat height = imageViewWidth + CGRectGetHeight(self.titleLabel.frame) + margin * 3; // margin from top and bottom and distance between `imageView` and `titleLabel`.
+    CGFloat height = CGRectGetHeight(self.imageView.frame) + CGRectGetHeight(self.titleLabel.frame) + margin * 3; // margin from top and bottom and distance between `imageView` and `titleLabel`.
     
-    return CGSizeMake(width, height);
+    return CGSizeMake(MAX(titleLabelWidth, imageViewWidth), height);
     
+}
+
+#pragma mark - Setter
+
+- (void)setImageViewRadius:(CGFloat)imageViewRadius {
+    self.imageView.layer.cornerRadius = imageViewRadius;
 }
 
 @end
