@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		214D899CE938343D64778C39 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1F4B1AE0B1B9202850DC4C /* libPods-Tests.a */; };
 		36F69EB41AA5CF8100944D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F69EB31AA5CF8100944D7A /* Main.storyboard */; };
+		36F69EB71AA5D05D00944D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F69EB61AA5D05D00944D7A /* ViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		022A3FB0A398C66BAACF971C /* Pods-AlternativeButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlternativeButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlternativeButton/Pods-AlternativeButton.debug.xcconfig"; sourceTree = "<group>"; };
 		36F69EB31AA5CF8100944D7A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		36F69EB51AA5D05D00944D7A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36F69EB61AA5D05D00944D7A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		39BF3DAADC5BB6CAAD8B5362 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		400E27E3C8C4ABD780BCE0CB /* AlternativeButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AlternativeButton.podspec; path = ../AlternativeButton.podspec; sourceTree = "<group>"; };
 		4BFC2A7BB10222C24CA72DFD /* Pods-AlternativeButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlternativeButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlternativeButton/Pods-AlternativeButton.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				6003F59C195388D20070C39A /* AppDelegate.h */,
 				6003F59D195388D20070C39A /* AppDelegate.m */,
 				36F69EB31AA5CF8100944D7A /* Main.storyboard */,
+				36F69EB51AA5D05D00944D7A /* ViewController.h */,
+				36F69EB61AA5D05D00944D7A /* ViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -352,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F69EB71AA5D05D00944D7A /* ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
