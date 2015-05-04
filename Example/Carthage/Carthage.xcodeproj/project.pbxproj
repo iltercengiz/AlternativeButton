@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		366934181AF7A37C00A94AE2 /* UIAlternativeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 366934161AF7A37C00A94AE2 /* UIAlternativeButton.h */; };
+		366934181AF7A37C00A94AE2 /* UIAlternativeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 366934161AF7A37C00A94AE2 /* UIAlternativeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		366934191AF7A37C00A94AE2 /* UIAlternativeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 366934171AF7A37C00A94AE2 /* UIAlternativeButton.m */; };
 /* End PBXBuildFile section */
 
